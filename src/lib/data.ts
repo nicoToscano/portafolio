@@ -179,13 +179,6 @@ export const awards = [
     url: "https://drive.google.com/file/d/1D8isUmtfn6x3f6FiQpXlHekCjWBQ9sWh/view",
   },
   {
-    name: "Certificado de Programa de Comercio Exterior: Negociando con el Mundo",
-    issuer: "EELA, Escuela de Emprendimiento y Negocios",
-    date: "Octubre 2023",
-    type: "Nacional",
-    url: "https://drive.google.com/file/d/13wtf65wMf_aF1R8XwHAR-OtvkaCCtCMY/view",
-  },
-  {
     name: "Certificado Inclusión Digital",
     issuer: "Escuela Politécnica Nacional",
     date: "Agosto 2022",
