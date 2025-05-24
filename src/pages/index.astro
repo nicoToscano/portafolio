@@ -8,9 +8,11 @@ import ProjectsSection from "@/components/ProjectsSection";
 import AwardsSection from "@/components/AwardsSection";
 import EducationSection from "@/components/EducationSection";
 import Footer from "@/components/Footer";
+import ParticlesBackground from "@/components/ParticlesBackground";
 ---
 
 <Layout>
+  <ParticlesBackground client:only="react" />     
   <GlassHeader client:only="react" />
   <main class="min-h-screen">
     <HeroSection client:only="react" />
