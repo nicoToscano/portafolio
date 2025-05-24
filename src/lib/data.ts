@@ -1,4 +1,5 @@
 export const personalInfo = {
+  shortname: "Nicolás",
   name: "Nicolás T.",
   location: "Quito, Ecuador",
   email: "nicolastoscano1@hotmail.com",
