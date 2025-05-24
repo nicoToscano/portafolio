@@ -70,7 +70,7 @@ export const education = [
 export const skills = {
   programmingLanguages: ["Java", "C++", "JavaScript"],
   frontendDevelopment: ["Nextjs", "Reactjs", "Tailwind CSS", "HTML", "CSS"],
-  backendDevelopment: ["Nodejs", ".NET"],
+  backendDevelopment: ["Nestjs", ".NET"],
   databaseAndStorage: ["SQL", "Supabase", "PostgreSQL"],
   cloudAndDevOps: ["Git", "GitHub"],
   toolsAndServices: [
