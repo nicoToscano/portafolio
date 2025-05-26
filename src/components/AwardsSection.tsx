@@ -9,7 +9,7 @@ import { a } from "framer-motion/client";
 export default function AwardsSection() {
   return (
     <section
-      id="awards"
+      id="certificados"
       className="py-12 bg-gradient-to-b from-background to-muted/10"
     >
       <div className="container max-w-4xl mx-auto px-6 md:px-4">

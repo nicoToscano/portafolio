@@ -14,7 +14,7 @@ import { motion } from "framer-motion";
 
 export default function ProjectsSection() {
   return (
-    <section id="projects" className="py-12 relative">
+    <section id="proyectos" className="py-12 relative">
       <div className="container max-w-4xl mx-auto px-6 md:px-4">
         <MotionWrapper>
           <h2 className="text-2xl font-bold mb-8 text-center md:text-left">
