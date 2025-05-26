@@ -55,7 +55,7 @@ export default function AwardsSection() {
                     className="text-xs text-muted-foreground/80 bg-background/50 px-2 py-1 rounded-md w-fit"
                     whileHover={{ scale: 1.05 }}
                   >
-                    {award.type === "International" ? "🌎 " : "🇮🇳 "}
+                    {award.type === "International" ? "🌎 " : "🇪🇨 "}
                     {award.type}
                   </motion.span>
                 </div>
