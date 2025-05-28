@@ -75,7 +75,7 @@ export default function GlassHeader() {
                 (item, index) => (
                   <motion.a
                     key={item}
-                    href={`#${item}`}
+                    href={`/portafolio/#${item}`}
                     className="transition-colors hover:text-foreground/80 text-foreground/60 py-2"
                     onClick={toggleMenu}
                     initial={{ opacity: 0, x: -20 }}
