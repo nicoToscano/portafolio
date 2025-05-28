@@ -70,27 +70,7 @@ export default function GlassHeader() {
             exit={{ opacity: 0, height: 0 }}
             transition={{ duration: 0.3 }}
           >
-            <nav className="flex flex-col space-y-4 text-sm font-medium">
-              {["experiencia", "habilidades", "proyectos", "certificados", "educacion"].map(
-                (item, index) => (
-                  <motion.a
-                    key={item}
-                    className="transition-colors hover:text-foreground/80 text-foreground/60 py-2"
-                    onClick={toggleMenu}
-                    initial={{ opacity: 0, x: -20 }}
-                    animate={{ opacity: 1, x: 0 }}
-                    transition={{ duration: 0.2, delay: index * 0.1 }}
-                  >
-                    {item === "experiencia" && "💼 "}
-                    {item === "habilidades" && "🛠️ "}
-                    {item === "proyectos" && "🚀 "}
-                    {item === "certificados" && "🏆 "}
-                    {item === "educacion" && "🎓 "}
-                    {item.charAt(0).toUpperCase() + item.slice(1)}
-                  </motion.a>
-                )
-              )}
-            </nav>
+            
           </motion.div>
         )}
       </AnimatePresence>
