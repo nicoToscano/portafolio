@@ -5,6 +5,7 @@ export const personalInfo = {
   email: "nicolastoscano1@hotmail.com",
   github: "https://github.com/nicotoscano",
   linkedin: "https://www.linkedin.com/in/nicotoscano/",
+  resume: "https://drive.google.com/file/d/1ypj-IFhzNkG5AUHTCRTyKqPnEfCS_x2B/view?usp=sharing",
 };
 
 export const workExperience = [
