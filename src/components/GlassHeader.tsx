@@ -14,7 +14,7 @@ export default function GlassHeader() {
       <div className="container max-w-4xl mx-auto p-4 flex justify-between items-center">
         <motion.a
           className="flex items-center text-lg font-medium"
-          href="/"
+          href="/portafolio"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >
@@ -27,7 +27,7 @@ export default function GlassHeader() {
             (item, index) => (
               <motion.a
                 key={item}
-                href={`portafolio/#${item}`}
+                href={`/#${item}`}
                 className="transition-colors hover:text-foreground/80 text-foreground/60"
                 initial={{ opacity: 0, y: -10 }}
                 animate={{ opacity: 1, y: 0 }}
