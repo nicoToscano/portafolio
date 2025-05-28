@@ -1,5 +1,5 @@
 import { personalInfo } from "@/lib/data";
-import { Mail, Github, MapPin, Linkedin } from "lucide-react";
+import { Mail, Github, MapPin, Linkedin, Download } from "lucide-react";
 import { motion } from "framer-motion";
 import MotionWrapper from "./MotionWrapper";
 
@@ -52,7 +52,7 @@ export default function HeroSection() {
             </motion.p>
 
             <motion.div
-              className="flex flex-col gap-2 items-center md:items-start"
+              className="flex flex-col gap-2 items-center md:items-start mb-6"
               variants={containerVariants}
             >
               <motion.div
@@ -96,6 +96,21 @@ export default function HeroSection() {
               >
                 <Linkedin className="h-4 w-4 mr-2" />
                  LinkedIn
+              </motion.a>
+            </motion.div>
+
+            <motion.div
+              className="flex flex-col gap-2 items-center md:items-start">
+              <motion.a
+                href={personalInfo.resume}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center text-sm text-white hover:text-white transition-colors bg-gradient-to-r from-pink-500/40 to-purple-500/40 px-4 py-2 rounded-lg"
+                variants={childVariants}
+                whileHover={{ scale: 1.05, color: "#ffffff" }}
+              >
+                <Download className="h-4 w-4 mr-2" />
+                  Descargar CV
               </motion.a>
             </motion.div>
           </div>
