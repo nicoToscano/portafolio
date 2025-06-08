@@ -106,6 +106,17 @@ export const projects = [
       "Implementé un diseño moderno y limpio, utilizando Tailwind CSS para estilos personalizados.",
     ],
   },
+  {
+    title: "Sistema de Gestión de Productos y Transacciones",
+    github: "https://github.com/nicoToscano/FullStackMicroservicios",
+    url: "https://github.com/nicoToscano/FullStackMicroservicios",
+    description: [
+      "Una aplicación web para la gestión de productos y transacciones, construida con un enfoque en microservicios.",
+      "El frontend fue desarrollado con React y Vite, consumiendo APIs expuestas por dos microservicios implementados en .NET para la gestión de productos y transacciones.",
+      "Se diseñó una arquitectura desacoplada, permitiendo escalabilidad y mantenibilidad del sistema.",
+      "Se implementaron pruebas y validaciones para asegurar la integridad de los datos y la correcta comunicación entre servicios.",
+    ],
+  },
 ];
 
 export const awards = [
