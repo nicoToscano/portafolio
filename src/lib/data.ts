@@ -113,8 +113,6 @@ export const projects = [
     description: [
       "Una aplicación web para la gestión de productos y transacciones, construida con un enfoque en microservicios.",
       "El frontend fue desarrollado con React y Vite, consumiendo APIs expuestas por dos microservicios implementados en .NET para la gestión de productos y transacciones.",
-      "Se diseñó una arquitectura desacoplada, permitiendo escalabilidad y mantenibilidad del sistema.",
-      "Se implementaron pruebas y validaciones para asegurar la integridad de los datos y la correcta comunicación entre servicios.",
     ],
   },
 ];
